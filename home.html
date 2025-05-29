@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section style="background-color: aliceblue;">
+
+        <div class="welcome">
+            <p> Welcome to a Primary Health Care </p>
+        </div>
+        <div class="contact">
+            <div class="phone-box">
+                <i class="fa fa-phone-square" aria-hidden="true"></i>
+                <p>+91987654321</p>
+
+            </div>
+            <div class="mail">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                <p>info@company.com</p>
+
+
+            </div>
+            <div class="calender">
+                <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                <p>8.Am - 5.Pm (Mon-Fri)</p>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- NAVBAR -->
+
+    <div class="navbar">
+        <div class="logo">
+            Health Center
+        </div>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Doctors</a>
+            <a href="#contact">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#appointment" class="right">Make an appointment</a>
+        </div>
+
+    </div>
+
+    <!-- SLIDER -->
+
+    <section class="banner-img" id="">
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section class="about">
+        <div class="box" id="boxitem">
+            <h1>Welcome to Your Health Center </h1>
+            <p>Aenean luctus lobortis tellus, vel ornare enim molestie condimentum.<br>
+                Curabitur lacinia nisi vitae velitvolutpat venenatis.</p>
+
+            <p>Sed a dignissim lacus. Quisque fermentum est non orci commodo, <br>
+                luctus urna mattis. Ut placerat, diam a
+                tempus vehicula.
+            </p>
+            <div class="chip">
+                <img src="images/pexels-content-pixie-1405717-2736497.jpg" alt="Person" width="96" height="96">
+                John Doe - Principal
+            </div>
+        </div>
+
+        <div class="box" id="boxitem">
+            <img src="images/nurse-2019420_640.jpg" alt="">
+        </div>
+
+
+    </section>
+
+    <!-- DOCTORS -->
+
+    <section class="team" id="">
+        <div>
+            <h2>Our Doctors</h2>
+        </div>
+        <div class="container">
+            <div class="card">
+                <img src="images/pexels-shkrabaanthony-5215024.jpg" alt="John" style="width:100%">
+                <h1>John Doe</h1>
+                <p class="title">General Medicine</p>
+                <div style="margin: 24px 0;">
+                    <a href="#"> <i class="fa fa-phone-square"></i></a>
+                    <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/pexels-thirdman-5327585.jpg" alt="John" style="width:100%">
+                <h1>Henry</h1>
+                <p class="title">Cardiologist</p>
+                <div style="margin: 24px 0;">
+                    <a href="#"> <i class="fa fa-phone-square"></i></a>
+                    <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="images/pexels-thirdman-5327656.jpg" alt="John" style="width:100%">
+                <h1>John Doe</h1>
+                <p class="title">Endocronologist</p>
+                <div style="margin: 24px 0;">
+                    <a href="#"> <i class="fa fa-phone-square"></i></a>
+                    <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- NEWS -->
+
+    <section class="news" id="">
+        <div class="row">
+            <h2>Latest News</h2>
+        </div>
+        <div class="container">
+
+            <div class="newsthumb">
+                <a href="news">
+                    <img src="" alt="">
+                    <div class="authour-info">
+                        <h5>Jereme Carlson</h5>
+                        <p>Ceo/founder</p>
+
+                    </div>
+                </a>
+            </div>
+            <div class="newsthumb">
+                <a href="news">
+                    <img src="" alt="">
+                    <div class="authour-info">
+                        <h5>Jereme Carlson</h5>
+                        <p>Ceo/founder</p>
+
+                    </div>
+                </a>
+            </div>
+            <div class="newsthumb">
+                <a href="news">
+                    <img src="" alt="">
+                    <div class="authour-info">
+                        <h5>Jereme Carlson</h5>
+                        <p>Ceo/founder</p>
+
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- APPOINTMENT -->
+
+    <section class="appointment" id="">
+        <DIV class="container">
+
+            <div class="box" id="boxitem">
+                <img src="images/pexels-thirdman-5327585.jpg" alt="" width="250px" height="250px">
+            </div>
+            <div class="contactform">
+                <form id="appointment-form" role="form" method="post" action="#">
+                    <div>
+                        <h2>Make an Appointment</h2>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Full Name">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" name="Your Email"
+                                placeholder="Full Name">
+                        </div>
+                        <div>
+                            <label for="date">select date</label>
+                            <input type="date" class="form-control" id="date" name="date" value class="form-control">
+                        </div>
+                        <div>
+                            <label for="select">Select Department</label>
+                            <select class="form-control">
+                                <option>General Health</option>
+                                <option>Cardiology</option>
+                                <option>Dental</option>
+                                <option> Medical Research</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="telephone">Phone number</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone">
+                            <label for="Message">Additional Message</label>
+                            <textarea class="form-control" rows="5" id="message" name="message"
+                                placeholder="Message"></textarea>
+                            <button type="submit" class="form-control" id="cf-submit" name="submit">Submit</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+        </DIV>
+    </section>
+
+    <section id="google-map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15561.58321224311!2d80.19866420000001!3d12.81768065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525b0036e89e17%3A0xa8760bb74ffd263!2sBrother&#39;s%20cafe!5e0!3m2!1sen!2sin!4v1748431143909!5m2!1sen!2sin"
+            width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+        <div class="container-last"></div>
+    </footer>
+</body>
