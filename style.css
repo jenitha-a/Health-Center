@@ -1,6 +1,8 @@
  /* :root {
  --theme-clr: #a5c422; } */
-
+*{
+ scroll-behavior: smooth;
+}
 
  body {
      margin: 0;
